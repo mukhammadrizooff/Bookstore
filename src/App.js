@@ -5,10 +5,10 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar';
-import Books from './components/Books';
-import Categories from './components/Categories';
-import NotFound from './components/NotFound';
+import NavBar from './components/navigation';
+import Books from './components/appBook';
+import Categories from './components/pageCat';
+import NotFound from './components/impossible';
 
 const App = () => (
   <Router>

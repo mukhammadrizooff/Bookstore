@@ -25,7 +25,7 @@ const ItemBook = (props) => {
             <img className="progress-circle" alt="progress-circle" src={progress} />
           </figure>
           <div className="progress-text">
-            <span className="stat-number">64%</span>
+            <span className="stat-number">70%</span>
             <span className="stat-text">Completed</span>
           </div>
         </div>
