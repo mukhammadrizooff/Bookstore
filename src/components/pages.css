@@ -128,25 +128,16 @@ nav figure:hover {
   gap: 1rem;
 }
 
-/* Form */
+/* listForm */
 
 .form-container {
   width: 100%;
 }
 
-/* Categories */
+/* pageCat */
 
 .categories-container {
   height: 100%;
   margin-top: 4rem;
   text-align: center;
 }
-
-span {
-  font-size: 20rem;
-}
-
-h1 {
-  font-size: 4rem;
-}
-

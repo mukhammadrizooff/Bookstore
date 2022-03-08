@@ -31,7 +31,7 @@ const ItemBook = (props) => {
         </div>
         <div className="progress-info">
           <span className="chapter-title">Current chapter</span>
-          <span className="chapter-number">Chapter 3</span>
+          <span className="chapter-number">Chapter 1</span>
           <button type="button">UPDATE PROGRESS</button>
         </div>
       </div>

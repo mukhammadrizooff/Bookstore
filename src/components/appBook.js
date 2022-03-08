@@ -6,19 +6,19 @@ const Books = () => (
   <section className="book-list-container">
     <section className="book-list">
       <ItemBook
-        title="Title 1"
-        author="Author 1"
-        categories="Category 1"
+        title="Old Man And Sea"
+        author="Ernest Hemingway"
+        categories="Novel"
       />
       <ItemBook
-        title="Title 2"
-        author="Author 2"
+        title="Rich Dad Poor Dad"
+        author="Robert Kiyosaki"
         categories="Category 2"
       />
       <ItemBook
-        title="Title 3"
-        author="Author 3"
-        categories="Category 3"
+        title="Beauty And Beast"
+        author="Gabrielle-Suzanne Barbot de Villeneuve"
+        categories="Fairytale"
       />
     </section>
     <Form />
