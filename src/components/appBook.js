@@ -1,28 +1,28 @@
+import { useSelector } from 'react-redux';
 import './pages.css';
 import ItemBook from './elements';
 import Form from './listForm';
 
-const Books = () => (
-  <section className="book-list-container">
-    <section className="book-list">
-      <ItemBook
-        title="Old Man And Sea"
-        author="Ernest Hemingway"
-        categories="Novel"
-      />
-      <ItemBook
-        title="Rich Dad Poor Dad"
-        author="Robert Kiyosaki"
-        categories="Category 2"
-      />
-      <ItemBook
-        title="Beauty And Beast"
-        author="Gabrielle-Suzanne Barbot de Villeneuve"
-        categories="Fairytale"
-      />
+const Books = () => {
+  const bookList = useSelector((state) => state.booksReducer);
+  return (
+    <section className="book-list-container">
+      <section className="book-list">
+        {
+          bookList.map((book) => (
+            <ItemBook
+              key={book.id}
+              id={book.id}
+              title={book.title}
+              author={book.author}
+              categories={book.categories}
+            />
+          ))
+        }
+      </section>
+      <Form />
     </section>
-    <Form />
-  </section>
-);
+  );
+};
 
 export default Books;
