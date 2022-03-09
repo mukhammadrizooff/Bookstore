@@ -43,7 +43,7 @@ export const sentBook = (payload) => (
         'Content-type': 'application/JSON',
       },
     });
-    dispatch(addBook(payload));
+    dispatch(addElement(payload));
   }
 );
 
@@ -59,7 +59,7 @@ export const deleteBook = (id) => (
       },
     });
     if (response.status === 201) {
-      dispatch(removeBook(id));
+      dispatch(removeElement(id));
     }
   }
 );
@@ -79,7 +79,7 @@ export const getBook = async (dispatch) => {
       author: bookAuthor,
       category,
     };
-    dispatch(addBook(newBook));
+    dispatch(addElement(newBook));
   });
 };
 
