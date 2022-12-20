@@ -17,6 +17,7 @@ $ cd Bookstore
 
 ```bash
 $ npm install
+$ npm run build
 $ npm run start # this will make webpack watching for your changes in code
 ```
 
