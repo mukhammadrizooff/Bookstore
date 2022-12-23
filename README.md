@@ -46,7 +46,7 @@ $ npm run start # this will make webpack watching for your changes in code
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mukhammadrizooff/Bookstore/issues).
+Feel free to check the [issues page](https://github.com/mukhammadrizooff/Bookstore/issues)
 
 ## Show your support
 
